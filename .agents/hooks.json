@@ -1,7 +1,16 @@
 {
-  "description": "Hooks de cycle de vie pour Antigravity",
-  "hooks": {
-    "pre_tool_execution": [],
-    "post_tool_execution": []
+  "funny-tool-announcer": {
+    "PreToolUse": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell -ExecutionPolicy Bypass -File ./scripts/funny-hook.ps1",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
   }
 }

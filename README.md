@@ -12,7 +12,9 @@ Présentation_MDPA_Démos/
 ├── README.md                   # Documentation générale de l'arborescence
 └── .agents/                    # Racine de personnalisation Antigravity (projet)
     ├── mcp_config.json         # Déclaration des serveurs MCP (Model Context Protocol)
-    ├── hooks.json              # Scripts d'automatisation sur les cycles de vie
+    ├── hooks.json              # Déclaration des hooks de cycle de vie (ex: PreToolUse)
+    ├── scripts/                # Scripts utilitaires des hooks
+    │   └── funny-hook.ps1      # Phrase drôle tirée au sort avant chaque outil
     │
     ├── rules/                  # Règles & directives modulaires (toujours actives)
     │   ├── coding-standards.md # Standards de code, nommage, clarté
