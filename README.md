@@ -10,6 +10,7 @@ Ce projet intègre l'arborescence standard recommandée pour **Google Antigravit
 Présentation_MDPA_Démos/
 ├── AGENTS.md                   # Instructions globales du projet (lues automatiquement)
 ├── README.md                   # Documentation générale de l'arborescence
+├── toggle-agents.ps1           # Script PowerShell pour basculer AGENTS.md / NO_AGENTS.md
 └── .agents/                    # Racine de personnalisation Antigravity (projet)
     ├── mcp_config.json         # Déclaration des serveurs MCP (Model Context Protocol)
     ├── hooks.json              # Déclaration des hooks de cycle de vie (ex: PreToolUse)
