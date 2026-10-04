@@ -37,17 +37,17 @@ Présentation_MDPA_Démos/
 
 ## 🔍 Fonctionnement des Composants
 
-### 1. [AGENTS.md](file:///c:/Users/revel/Desktop/Présentation_MDPA_Démos/AGENTS.md)
+### 1. [AGENTS.md](./AGENTS.md)
 Le fichier d'instructions racine. Dès qu'Antigravity ouvre ou travaille dans ce dossier, il prend en compte les directives de ce fichier.
 
-### 2. [Dossier `.agents/rules/`](file:///c:/Users/revel/Desktop/Présentation_MDPA_Démos/.agents/rules)
+### 2. [Dossier `.agents/rules/`](./.agents/rules/)
 Les règles qui s'appliquent de manière permanente pour encadrer la génération de code, la sécurité et le style.
 
-### 3. [Dossier `.agents/skills/`](file:///c:/Users/revel/Desktop/Présentation_MDPA_Démos/.agents/skills)
+### 3. [Dossier `.agents/skills/`](./.agents/skills/)
 Les compétences (*skills*) utilisent la **divulgation progressive** (*progressive disclosure*) : Antigravity ne charge que le `name` et la `description` dans son contexte. Le contenu complet du `SKILL.md` et de son dossier `references/` n'est chargé que lorsque la tâche le nécessite.
 
-### 4. [Dossier `.agents/prompts/`](file:///c:/Users/revel/Desktop/Présentation_MDPA_Démos/.agents/prompts)
+### 4. [Dossier `.agents/prompts/`](./.agents/prompts/)
 Bibliothèque de prompts calibrés pour des actions spécifiques (revue de code, conception, résolution de bugs).
 
-### 5. [Dossier `.agents/agents/`](file:///c:/Users/revel/Desktop/Présentation_MDPA_Démos/.agents/agents)
+### 5. [Dossier `.agents/agents/`](./.agents/agents/)
 Fiches de rôles pour orchestrer des sous-agents ou assigner des personas avec des contraintes précises lors de tâches complexes.
