@@ -1,0 +1,7 @@
+{
+  "description": "Hooks de cycle de vie pour Antigravity",
+  "hooks": {
+    "pre_tool_execution": [],
+    "post_tool_execution": []
+  }
+}
